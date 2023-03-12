@@ -63,3 +63,4 @@
 *.sql.gz
 *.sql
 .idea
+.idea/*/
