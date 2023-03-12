@@ -5,8 +5,10 @@ dependencies:
   config:
     - field.field.node.product.body
     - field.field.node.product.field_price
+    - field.field.node.product.field_thumbnail
     - node.type.product
   module:
+    - media_library
     - path
     - text
 id: node.product.default
@@ -36,6 +38,13 @@ content:
     region: content
     settings:
       placeholder: ''
+    third_party_settings: {  }
+  field_thumbnail:
+    type: media_library_widget
+    weight: 123
+    region: content
+    settings:
+      media_types: {  }
     third_party_settings: {  }
   path:
     type: path
