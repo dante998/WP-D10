@@ -1,0 +1,25 @@
+uuid: 3aebcaf5-c6f5-4f27-868e-ba42af2e1886
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4679ee0d-348b-4141-af6e-54efd810b09d'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: welcomeblock
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'block_content:4679ee0d-348b-4141-af6e-54efd810b09d'
+settings:
+  id: 'block_content:4679ee0d-348b-4141-af6e-54efd810b09d'
+  label: Welcome
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
