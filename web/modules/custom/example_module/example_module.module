@@ -1,0 +1,17 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+
+
+/**
+ * Implements hook_form_alter().
+ */
+function example_module_form_alter(&$form,
+  FormStateInterface $form_state,
+  $form_id
+) {
+//  if ($config = \Drupal::configFactory()->getEditable('system.site')) {
+//    $config->set('slogan', 'Example of new slogan.')->save();
+//  }
+
+}
