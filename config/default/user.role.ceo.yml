@@ -1,0 +1,9 @@
+uuid: 86a024d3-79a2-4a8f-866d-5dcfe554bcd4
+langcode: en
+status: true
+dependencies: {  }
+id: ceo
+label: CEO
+weight: 5
+is_admin: null
+permissions: {  }
