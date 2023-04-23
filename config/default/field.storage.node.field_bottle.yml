@@ -1,0 +1,30 @@
+uuid: 82089de8-79e8-4e80-ae53-60135e712bbf
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_bottle
+field_name: field_bottle
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: water
+      label: Water
+    -
+      value: coca_cola
+      label: Coca-cola
+    -
+      value: fresh
+      label: Fresh
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
