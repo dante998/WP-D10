@@ -1,0 +1,21 @@
+uuid: c208de24-aab3-4c0b-b7be-f6c48332954e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bottle
+    - node.type.bottle
+  module:
+    - options
+id: node.bottle.field_bottle
+field_name: field_bottle
+entity_type: node
+bundle: bottle
+label: Bottle
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

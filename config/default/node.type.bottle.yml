@@ -1,0 +1,18 @@
+uuid: f5b38dd7-43c0-4822-ae9e-0a40b310a62e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Bottle
+type: bottle
+description: 'This is an bottle of water.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
