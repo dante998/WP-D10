@@ -1,0 +1,40 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.page
+  module:
+    - node
+  enforced:
+    module:
+      - custom_roles
+id: customer
+label: customer
+weight: 7
+is_admin: null
+permissions:
+  - 'create article content'
+  - 'create page content'
+  - 'delete any article content'
+  - 'delete any page content'
+  - 'delete own article content'
+  - 'delete own page content'
+  - 'delete article revisions'
+  - 'delete page revisions'
+  - 'edit any article content'
+  - 'edit any page content'
+  - 'edit own article content'
+  - 'edit own page content'
+  - 'revert article revisions'
+  - 'revert page revisions'
+  - 'view article revisions'
+  - 'view page revisions'
+  - 'access content overview'
+  - 'administer nodes'
+  - 'administer content types'
+  - 'bypass node access'
+  - 'delete all revisions'
+  - 'revert all revisions'
+  - 'view all revisions'
+  - 'access user profiles'

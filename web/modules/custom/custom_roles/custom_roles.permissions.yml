@@ -1,0 +1,4 @@
+office access:
+  title: 'Office access'
+  description: 'Allow users to enter in the office.'
+  restrict access: true

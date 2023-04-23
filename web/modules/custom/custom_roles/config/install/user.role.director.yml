@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  enforced:
+    module:
+      - custom_roles
+id: director
+label: Director
+weight: 6
+is_admin: null
+permissions:
+  - 'administer nodes'
+  - 'access user profiles'

@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.page
+  module:
+    - node
+  enforced:
+    module:
+      - custom_roles
+id: employee
+label: employee
+weight: 4
+is_admin: null
+permissions:
+  - 'view page revisions'
+  - 'access user profiles'
