@@ -1,0 +1,14 @@
+uuid: d18cce82-2c14-4153-9ebe-708ebd2649a7
+langcode: en
+status: true
+dependencies:
+  module:
+    - config
+id: trainer
+label: Trainer
+weight: 4
+is_admin: null
+permissions:
+  - 'export configuration'
+  - 'import configuration'
+  - 'synchronize configuration'
