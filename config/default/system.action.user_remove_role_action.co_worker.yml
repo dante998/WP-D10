@@ -1,0 +1,14 @@
+uuid: e3f5de99-c841-4aa2-bf7c-297e65e8dd4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.co_worker
+  module:
+    - user
+id: user_remove_role_action.co_worker
+label: 'Remove the Co-worker role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: co_worker

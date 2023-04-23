@@ -1,0 +1,14 @@
+uuid: d6bf6620-e387-4a46-a66a-4131d0036f50
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.co_worker
+  module:
+    - user
+id: user_add_role_action.co_worker
+label: 'Add the Co-worker role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: co_worker
