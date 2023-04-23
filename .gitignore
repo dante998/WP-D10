@@ -64,3 +64,5 @@
 *.sql
 .idea
 .idea/*/
+.idea/php.xml
+
