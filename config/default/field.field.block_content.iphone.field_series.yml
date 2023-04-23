@@ -1,0 +1,23 @@
+uuid: f131aeac-db25-4bb9-bdd4-5555abdbe15d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.iphone
+    - field.storage.block_content.field_series
+id: block_content.iphone.field_series
+field_name: field_series
+entity_type: block_content
+bundle: iphone
+label: Series
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

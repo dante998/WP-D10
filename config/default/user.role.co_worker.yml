@@ -1,9 +1,0 @@
-uuid: 3522f143-9a03-4712-9c57-d5b324d54f92
-langcode: en
-status: true
-dependencies: {  }
-id: co_worker
-label: Co-worker
-weight: 6
-is_admin: null
-permissions: {  }

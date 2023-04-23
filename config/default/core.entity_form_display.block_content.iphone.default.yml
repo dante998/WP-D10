@@ -1,0 +1,41 @@
+uuid: f2cc55a4-1232-473c-b58c-8634d3898667
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.iphone
+    - field.field.block_content.iphone.body
+    - field.field.block_content.iphone.field_series
+  module:
+    - text
+id: block_content.iphone.default
+targetEntityType: block_content
+bundle: iphone
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_series:
+    type: number
+    weight: 27
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }
