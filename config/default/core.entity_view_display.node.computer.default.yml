@@ -1,0 +1,46 @@
+uuid: 0271211d-3506-431f-b289-bbb206b39fd3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.computer.body
+    - field.field.node.computer.field_description
+    - field.field.node.computer.field_media
+    - node.type.computer
+  module:
+    - text
+    - user
+id: node.computer.default
+targetEntityType: node
+bundle: computer
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_media:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,34 @@
+uuid: 61da18ca-74c5-4c40-b228-27e7fa356060
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.bottle.body
+    - field.field.node.bottle.field_bottle
+    - field.field.node.bottle.field_comments
+    - node.type.bottle
+  module:
+    - text
+    - user
+id: node.bottle.teaser
+targetEntityType: node
+bundle: bottle
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_bottle: true
+  field_comments: true
