@@ -1,4 +1,4 @@
-uuid: f5b38dd7-43c0-4822-ae9e-0a40b310a62e
+uuid: 4e393d68-1204-41a5-a246-0a194e720708
 langcode: en
 status: true
 dependencies:
@@ -9,9 +9,9 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: Bottle
-type: bottle
-description: 'This is an bottle of water.'
+name: Pic
+type: pic
+description: ''
 help: ''
 new_revision: true
 preview_mode: 1

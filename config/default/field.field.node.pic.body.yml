@@ -1,16 +1,16 @@
-uuid: 34f99ebf-794d-4e79-879d-9b67a0b86735
+uuid: 53b67d4e-fb39-4482-8d57-deabfe7d415e
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.bottle
+    - node.type.pic
   module:
     - text
-id: node.bottle.body
+id: node.pic.body
 field_name: body
 entity_type: node
-bundle: bottle
+bundle: pic
 label: Body
 description: ''
 required: false

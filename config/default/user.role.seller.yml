@@ -1,9 +1,0 @@
-uuid: 87585a92-ac3f-4ca6-9f54-ad2deac57b42
-langcode: en
-status: true
-dependencies: {  }
-id: seller
-label: seller
-weight: 6
-is_admin: null
-permissions: {  }

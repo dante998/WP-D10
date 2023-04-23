@@ -1,19 +1,19 @@
-uuid: c8343f5d-ffd6-4990-bc5a-f9faac053529
+uuid: c374bd96-7cb1-44a3-8f75-8645171f2173
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.bottle.body
-    - field.field.node.bottle.field_bottle
-    - field.field.node.bottle.field_comments
-    - node.type.bottle
+    - field.field.node.pic.body
+    - field.field.node.pic.field_image_2
+    - field.field.node.pic.field_number
+    - node.type.pic
   module:
-    - comment
+    - media_library
     - path
     - text
-id: node.bottle.default
+id: node.pic.default
 targetEntityType: node
-bundle: bottle
+bundle: pic
 mode: default
 content:
   body:
@@ -32,17 +32,19 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_bottle:
-    type: options_select
+  field_image_2:
+    type: media_library_widget
     weight: 122
     region: content
-    settings: {  }
+    settings:
+      media_types: {  }
     third_party_settings: {  }
-  field_comments:
-    type: comment_default
+  field_number:
+    type: number
     weight: 123
     region: content
-    settings: {  }
+    settings:
+      placeholder: ''
     third_party_settings: {  }
   path:
     type: path

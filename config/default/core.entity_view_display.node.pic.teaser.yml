@@ -1,19 +1,19 @@
-uuid: 61da18ca-74c5-4c40-b228-27e7fa356060
+uuid: 407f6965-46d6-4489-8908-446338de79f9
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.bottle.body
-    - field.field.node.bottle.field_bottle
-    - field.field.node.bottle.field_comments
-    - node.type.bottle
+    - field.field.node.pic.body
+    - field.field.node.pic.field_image_2
+    - field.field.node.pic.field_number
+    - node.type.pic
   module:
     - text
     - user
-id: node.bottle.teaser
+id: node.pic.teaser
 targetEntityType: node
-bundle: bottle
+bundle: pic
 mode: teaser
 content:
   body:
@@ -30,5 +30,5 @@ content:
     weight: 100
     region: content
 hidden:
-  field_bottle: true
-  field_comments: true
+  field_image_2: true
+  field_number: true
