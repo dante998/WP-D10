@@ -2,7 +2,7 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
 uuid: 2434ed80-e827-4cf5-a02c-de68f5b4c554
-name: Drupal 12123
+name: 'Drupal 12123'
 mail: admin@example.com
 slogan: 'simeon is a very good developer'
 page:
