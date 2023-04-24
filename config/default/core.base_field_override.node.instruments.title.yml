@@ -1,0 +1,18 @@
+uuid: b626196d-4fac-498b-afff-81b85af6c59f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.instruments
+id: node.instruments.title
+field_name: title
+entity_type: node
+bundle: instruments
+label: Instruments
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

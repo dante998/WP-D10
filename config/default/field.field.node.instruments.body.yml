@@ -1,0 +1,23 @@
+uuid: 06bac906-eb49-4575-a0ec-6189c2bb4784
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.instruments
+  module:
+    - text
+id: node.instruments.body
+field_name: body
+entity_type: node
+bundle: instruments
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

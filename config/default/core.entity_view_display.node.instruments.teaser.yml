@@ -1,0 +1,36 @@
+uuid: 628e574f-e3fd-44a4-aa29-6c59c52a8210
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.instruments.body
+    - field.field.node.instruments.field_dr
+    - field.field.node.instruments.field_guitar
+    - field.field.node.instruments.field_microphone
+    - node.type.instruments
+  module:
+    - text
+    - user
+id: node.instruments.teaser
+targetEntityType: node
+bundle: instruments
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_dr: true
+  field_guitar: true
+  field_microphone: true

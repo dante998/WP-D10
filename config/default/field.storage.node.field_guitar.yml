@@ -1,0 +1,20 @@
+uuid: dccb1e67-0cc9-4fe5-808d-d84ce07fb8ce
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_guitar
+field_name: field_guitar
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
