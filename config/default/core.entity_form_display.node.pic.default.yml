@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.pic.field_number
     - node.type.pic
   module:
+    - content_moderation
     - media_library
     - path
     - text
@@ -45,6 +46,19 @@ content:
     region: content
     settings:
       placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    region: content
+    settings: {  }
     third_party_settings: {  }
   path:
     type: path

@@ -38,3 +38,5 @@ hidden:
   field_official_website: true
   field_walking_and_driving_instru: true
   field_waterfall_height: true
+  langcode: true
+  search_api_excerpt: true

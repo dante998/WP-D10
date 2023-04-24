@@ -32,3 +32,5 @@ content:
 hidden:
   field_image_2: true
   field_number: true
+  langcode: true
+  search_api_excerpt: true
